@@ -1,189 +1,882 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Unser digitaler Ehrenkodex</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>♡ NUESTRO MUNDO DE AMOR ♡</title>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 </head>
+
 <body>
 
-    <header>
-        <h1>UNSER DIGITALER EHRENKODEX</h1>
-        <p>Projekt Medienbildung  9d</p>
-        <p class="namen">Von: Fabián, Justus, Emil, Andrés und Fabio</p>
-    </header>
+<!-- =====================================================
+     MUSIC WELCOME
+===================================================== -->
 
-    <section id="intro">
-        <h2>Was ist das hier?</h2>
-        <p>Das ist unser Manifest. Wir haben Regeln gemacht, wie wir fair, ehrlich und verantwortungsvoll mit Medien umgehen wollen</p>
-        <p>Hier sind unsere 5 Kapitel</p>
-    </section>
+<div id="musicWelcome">
 
-    <!-- KAPITEL 1 -->
-    <section class="kapitel">
-        <h2>Kapitel 1: Bilder und Wurde</h2>
-        <div class="lema">"Frag erst, dann poste"</div>
-        
-        <h3>Warum ist das wichtig?</h3>
-        <ul>
-            <li>Jeder darf selbst entscheiden welche Fotos von ihm geteilt werden</li>
-            <li>Ein peinliches Foto kann lange weh tun</li>
-            <li>Was einmal im Netz ist bleibt oft für immer</li>
-        </ul>
-        
-        <h3>Unsere 3 Regeln</h3>
-        <ol>
-            <li><strong>Immer fragen:</strong> Wir posten keine Fotos von anderen ohne Erlaubnis</li>
-            <li><strong>Loschen auf Wunsch:</strong> Wenn jemand sagt "Losch das!", dann machen wir das sofort</li>
-            <li><strong>Nachdenken:</strong> Wurdest du wollen, dass dieses Foto von dir gepostet wird? Wenn nicht, dann poste es nicht</li>
-        </ol>
-        
-        <div class="beispiele">
-            <div class="schlecht">
-                <h4>Schlechtes Beispiel</h4>
-                <p>Emil macht heimlich ein Foto von Tom der in der Pause schlaft. Sie postet es in die Klasse. Alle lachen und Leon ist voll peinlich.</p>
-            </div>
-            <div class="gut">
-                <h4>Gutes Beispiel</h4>
-                <p>Tom macht ein Gruppenfoto vom Ausflug. Er fragt alle: "Darf ich das hochladen?" Einer sagt nein. Tom respektiert das und ladet es nicht hoch.</p>
-            </div>
+  <div class="welcome-window">
+
+    <div class="window-title">
+      ♡ NUESTRO MUNDO DE AMOR ♡
+      <span>_ □ ×</span>
+    </div>
+
+    <div class="welcome-inner">
+
+      <div class="welcome-decoration">
+        ♡ ♥ ♡ ♥ ♡
+      </div>
+
+      <h1>¿Un poco de musica?</h1>
+
+      <p>
+        ♪ Solo unas canciones que han hecho parte en nuestra historia ♪
+      </p>
+
+      <div class="old-buttons">
+        <button id="musicYes">Sí ♥</button>
+        <button id="musicNo">No ♡</button>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- =====================================================
+     WEBSITE
+===================================================== -->
+
+<div id="website">
+
+  <!-- TOP DECORATION -->
+
+  <div class="top-stripes"></div>
+
+  <header>
+
+    <div class="tiny-top">
+      ♡ bienvenida a nuestro rincon online ♡
+    </div>
+
+    <h1>♡ NUSTRO PEQUENO MUNDO ♡</h1>
+
+    <div class="subtitle">
+      ♥ un sitio web solo para ti ♥
+    </div>
+
+    <div class="sparkle-line">
+      ✧･ﾟ: *✧･ﾟ:* *:･ﾟ✧*:･ﾟ✧
+    </div>
+
+    <div class="marquee">
+      <span>
+        ♥ Princesita Rubi, esta pagina es solo nuestra ♥
+      </span>
+    </div>
+
+  </header>
+
+
+  <!-- ===================================================
+       layout prinpipal
+  =================================================== -->
+
+  <div class="layout">
+
+
+    <!-- SIDEBAR -->
+
+    <aside>
+
+      <div class="sidebar-stripes"></div>
+
+      <div class="sidebar-content">
+
+        <div class="side-box">
+
+          <div class="side-title">
+            ♡ ¿Buscas algo?
+          </div>
+
+          <a href="#home">♡ Casa</a>
+          <a href="#story">♡ Historia</a>
+          <a href="#distance">♡ Lejos</a>
+          <a href="#memories">♡ Memorias</a>
+          <a href="#littlethings">♡ Detallitos</a>
+          <a href="#chapter">♡ Oscuridad</a>
+          <a href="#letter">♡ Mi carta</a>
+          <a href="#future">♡ Futuro</a>
+          <a href="#question">♡ ???</a>
+
         </div>
-    </section>
 
-    <!-- KAPITEL 2 -->
-    <section class="kapitel">
-        <h2>Kapitel 2: Chat und Respekt</h2>
-        <div class="lema">"Hinter jeder Nachricht ist ein Mensch"</div>
-        
-        <h3>Warum ist das wichtig?</h3>
-        <ul>
-            <li>Im Chat kann man schnell missverstanden werden</li>
-            <li>Mobbing im Netz tut genauso weh wie in echt</li>
-            <li>Ein guter Klassenchat macht die Stimmung besser</li>
-        </ul>
-        
-        <h3>Unsere 3 Regeln</h3>
-        <ol>
-            <li><strong>Nicht beleidigen:</strong> Beleidigungen haben in unserem Chat keinen Platz</li>
-            <li><strong>Vor dem Senden nachdenken:</strong> Wie wurde sich der andere fuhlen?</li>
-            <li><strong>Niemanden ausschließen:</strong> Alle durfen in den wichtigen Gruppen sein</li>
-        </ol>
-        
-        <div class="beispiele">
-            <div class="schlecht">
-                <h4>Schlechtes Beispiel</h4>
-                <p>Justus fragt im Klassenchat: "Was ist die Hausaufgabe?" Andrés antwortet: "Hor mal zu im Unterricht!" Justus ist voll peinlich.</p>
-            </div>
-            <div class="gut">
-                <h4>Gutes Beispiel</h4>
-                <p>Justus versteht eine Aufgabe nicht. Er fragt im Chat. Mehrere Leute helfen ihm nett und erklaren es gut.</p>
-            </div>
+
+        <div class="side-box">
+
+          <div class="side-title">
+            ♡ Mientras tanto...
+          </div>
+
+          <div class="currently">
+
+            Pensando en ti... ♡
+
+            <br><br>
+
+            ♪ Escuchando:
+
+            <br>
+
+            <span id="sideSong">
+              nothing
+            </span>
+
+          </div>
+
         </div>
-    </section>
 
-    <!-- KAPITEL 3 -->
-    <section class="kapitel">
-        <h2>Kapitel 3: KI und Ehrlichkeit</h2>
-        <div class="lema">"KI hilft, aber sie ersetzt dich nicht"</div>
-        
-        <h3>Warum ist das wichtig?</h3>
-        <ul>
-            <li>KI ohne Ehrlichkeit ist Betrug</li>
-            <li>Wenn du nicht lernst hilft dir die KI gar nicht</li>
-            <li>KI kann Fehler machen, du musst prufen</li>
-        </ul>
-        
-        <h3>Unsere 3 Regeln</h3>
-        <ol>
-            <li><strong>Sag es wenn du KI nutzt:</strong> Wir schreiben immer dazu wenn wir KI benutzt haben</li>
-            <li><strong>Prufe die Infos:</strong> Wir glauben nicht alles was die KI sagt.</li>
-            <li><strong>Selbst denken:</strong> Die KI hilft uns beim Denken aber wir denken selber</li>
-        </ol>
-        
-        <div class="beispiele">
-            <div class="schlecht">
-                <h4>Schlechtes Beispiel</h4>
-                <p>Fabio nutzt ChatGPT fur seine ganze Geschichts-Hausaufgabe. Er kopiert alles ohne zu lesen. In der Stunde kann er nichts erklaren.</p>
-            </div>
-            <div class="gut">
-                <h4>Gutes Beispiel</h4>
-                <p>Fabio nutzt ChatGPT, um ein Thema besser zu verstehen. Sie fragt nach Begriffen, die sie nicht kennt. Am Ende schreibt sie: "Ich habe KI fur Ideen genutzt."</p>
-            </div>
+
+        <div class="side-box">
+
+          <div class="side-title">
+            ♡ Sobre este sitio
+          </div>
+
+          <div class="about-site">
+
+            Hecho con:
+            <br>
+            ♡ Amor
+            <br>
+            ♡ Nostalgia
+            <br>
+            ♡ Y mucho mas amor
+
+            <br><br>
+
+            Eres mi todo
+            <br>
+            Honguito Lindo ♥
+
+          </div>
+
         </div>
-    </section>
 
-    <!-- KAPITEL 4 -->
-    <section class="kapitel">
-        <h2>Kapitel 4: Deepfakes und Wahrheit</h2>
-        <div class="lema">"Nicht alles im Netz ist echt"</div>
-        
-        <h3>Warum ist das wichtig?</h3>
-        <ul>
-            <li>Deepfakes konnen viele Leute täuschen</li>
-            <li>Falsche Infos zu teilen kann anderen schaden</li>
-            <li>Prufen vor dem Teilen ist deine Verantwortung</li>
-        </ul>
-        
-        <h3>Unsere 3 Regeln</h3>
-        <ol>
-            <li><strong>Prufen vor dem Teilen:</strong> Wenn du nicht sicher bist teile es nicht</li>
-            <li><strong>Keine Deepfakes machen:</strong> Falsche Videos von echten Leuten zu machen ist nicht ok</li>
-            <li><strong>Fragen:</strong> Wenn etwas komisch aussieht frag einen Lehrer oder such in guten Quellen</li>
-        </ol>
-        
-        <div class="beispiele">
-            <div class="schlecht">
-                <h4>Schlechtes Beispiel</h4>
-                <p>Fabián teilt ein gefaktes Video von einem Lehrer, der etwas Blodes sagt. Viele teilen es. Der Lehrer verliert seinen Job.</p>
-            </div>
-            <div class="gut">
-                <h4>Gutes Beispiel</h4>
-                <p>Fabián sieht ein komisches Video von einem Politiker. Statt es zu teilen, googelt er. Er findet raus, es ist fake. Er warnt ihre Freunde.</p>
-            </div>
+
+        <div class="side-box visitor">
+
+          <div class="side-title">
+            ♡ Vistitas
+          </div>
+
+          <div class="counter">
+            000001
+          </div>
+
         </div>
-    </section>
 
-    <!-- KAPITEL 5 -->
-    <section class="kapitel">
-        <h2>Kapitel 5: KI und Kreativitat</h2>
-        <div class="lema">"KI inspiriert, du erschaffst"</div>
-        
-        <h3>Warum ist das wichtig?</h3>
-        <ul>
-            <li>Kreativitat macht uns besonders</li>
-            <li>Die KI kann Ideen geben, aber du machst das Echte</li>
-            <li>KI zu nutzen ist okay, aber sag es</li>
-        </ul>
-        
-        <h3>Unsere 3 Regeln</h3>
-        <ol>
-            <li><strong>Lass dich inspirieren, nicht ersetzen:</strong> KI gibt Ideen, aber mach deine eigene Version</li>
-            <li><strong>Sag, was du genutzt hast:</strong> Wenn du KI benutzt hast schreib es hin</li>
-            <li><strong>Originalitat zahlt:</strong> Das Beste kommt von dir</li>
-        </ol>
-        
-        <div class="beispiele">
-            <div class="schlecht">
-                <h4>Schlechtes Beispiel</h4>
-                <p>Eine Gruppe nutzt ein KI-Bild fur ein Projekt und sagt, sie haben es selbst gemalt. Der Lehrer findet es raus und ist enttauscht.</p>
-            </div>
-            <div class="gut">
-                <h4>Gutes Beispiel</h4>
-                <p>Tom nutzt KI, um 5 Ideen fur ein Bild zu bekommen. Er sucht eine aus und macht es in ihrem eigenen Stil. Er schreibt dazu: "Ich habe KI fur die ersten Ideen genutzt."</p>
-            </div>
+
+        <div class="side-box">
+
+          <div class="side-title">
+            ♡ 
+          </div>
+
+          <div class="blinkie">
+            ♥ Hecho con AMOR ♥
+          </div>
+
+          <div class="blinkie">
+            ♡ 100% us ♡
+          </div>
+
         </div>
-    </section>
 
-    <footer>
-        <p>Projekt Medienbildung 9d</p>
-        <p>Von: Fabian, Justus, Emil, Andres und Fabio</p>
-        <p>Quellen: AICAD, Klicksafe</p>
-        <p>Wir haben KI fur Ideen und Korrektur genutzt</p>
-        <button onclick="unterschreiben()">Hier unterschreiben</button>
-        <p id="unterschrift"></p>
-    </footer>
+      </div>
 
-    <script src="script.js"></script>
+    </aside>
+
+
+    <!-- =================================================
+         CONTENT
+    ================================================= -->
+
+    <main>
+
+
+      <!-- HOME -->
+
+      <section id="home">
+
+        <div class="welcome-box">
+
+          <div class="box-header">
+            ♡ Bienvenida 
+          </div>
+
+          <div class="welcome-content">
+
+            <div class="welcome-hearts">
+              ♥ ♡ ♥ ♡ ♥
+            </div>
+
+            <h2>Hola, amor ♡</h2>
+
+            <p>
+              Hice este espacio solo para los dos.
+            </p>
+
+            <p>
+              Un lugar en el internet que nos pertenece
+              y a nuestra historia.
+            </p>
+
+            <p>
+              Asi que tomate tu tiempo y navega
+              pero solo si piensas en mi mientras.
+            </p>
+
+            <div class="under-construction">
+              ♡♥♡ ESTA PAGINA SIGUE EN CONSTRUCCION ♡♥♡
+              <br>
+              porque nuestra historia no ha acabado...
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="home-profile">
+
+          <div class="photo-polaroid">
+
+            <img
+              id="profilePhoto"
+              src=""
+              alt="us"
+            >
+
+            <div>
+              ♡ us ♡
+            </div>
+
+          </div>
+
+
+          <div class="home-text">
+
+            <h3>♡ Hola, hola ♡</h3>
+
+            <p>
+              Me atrevo a decir con total seguridad, que esta es una de mis fotos favoritas, por no decir que es la que mas me gusta.
+            </p>
+
+            <p>
+              No solo fue tomada en un momento tan especial y de los mas preciados para mi como ese, sino que la belleza de tu cara mas el ambiente en ese momento es lo que la hace tan unica.
+            </p>
+
+            <p>
+              La veo siempre, y cada vez que la veo que me hace sentir la mis alegria, satisfaccion y calma al saber que tengo a una munequita hecha y derecha como mi pareja... Pero no es lo unico que tengo por decir, sigue bajando...
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+
+      <!-- STORY -->
+
+      <section id="story">
+
+        <div class="section-heading">
+          ♡ NOSOTROS ♡
+        </div>
+
+        <div class="old-window">
+
+          <div class="window-bar">
+            nosotros.txt
+          </div>
+
+          <div class="window-content">
+
+            <p>
+              Aqui es donden empieza todo.
+            </p>
+
+            <p>
+              <span class="editable">
+                Quien lo diria, aquella conversacion sobre la escuela y pelea entre franceses y espanoles fue lo que emepezo todo. Dos personas tan distintas que lograban conectarse y hacer el tema mas aburrido algo divertido que cualquier chiste existente. Quien diria que ese dia yo seria el afortunado de conocer a esa princesita en su mundo rosado, que empezo a iluminar mi dia a dia.
+              </span>
+            </p>
+
+            <p>
+              Chistes, conversaciones, momentos y memorias, todas esas cosas que sin darnos cuenta fueron formando un vinculo fuerte y especial.
+            </p>
+
+            <p>
+              <span class="editable">
+                [PUEDES CONTAR AQUÍ VUESTRA HISTORIA REAL]
+              </span>
+            </p>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+
+      <!-- DISTANCE -->
+
+      <section id="distance">
+
+        <div class="section-heading">
+          ♡ INCLUSO A DISTANCIA ♡
+        </div>
+
+        <div class="distance-window">
+
+          <div class="distance-person">
+            ♡
+            <br>
+            <b>YO</b>
+          </div>
+
+          <div class="distance-middle">
+
+            . . . . . . . . . . . . . . . .
+            <br>
+            ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥
+            <br>
+            . . . . . . . . . . . . . . . .
+
+          </div>
+
+          <div class="distance-person">
+            ♥
+            <br>
+            <b>TU</b>
+          </div>
+
+        </div>
+
+        <p class="center">
+          distintos lugares, mismos sentimientos 
+        </p>
+
+      </section>
+
+
+
+      <!-- MEMORIES -->
+
+      <section id="memories">
+
+        <div class="section-heading">
+          ♡ MEMORIAS ♡
+        </div>
+
+        <p class="center">
+          PEDAZOS DE NOSOTROS ♥
+        </p>
+
+        <div id="photoGallery" class="photo-gallery">
+        </div>
+
+      </section>
+
+
+
+      <!-- LITTLE THINGS -->
+
+      <section id="littlethings">
+
+        <div class="section-heading">
+          ♡ COSAS QUE AMO DE TI ♡
+        </div>
+
+        <div class="little-table">
+
+          <div>♡ Tu sonrisa
+</div>
+          <div>♥ Tu sensibilidad y sentimientos grandes
+</div>
+          <div>♡ Tu carita y cuerpo
+</div>
+
+          <div>♥ Tu manera de expresarte</div>
+          <div>♡ CADA una de tus cartas y detalles
+</div>
+          <div>♥ Simplemente a mi princesa
+</div>
+
+        </div>
+
+        <p class="center small">
+          y aproximadamente 982374982374 cosas mas...
+        </p>
+
+      </section>
+
+
+
+      <!-- DIFFICULT CHAPTER -->
+
+      <section id="chapter">
+
+        <div class="section-heading">
+          ♡ LA OSCURIDAD ♡
+        </div>
+
+        <div class="old-window">
+
+          <div class="window-bar">
+            algo_que_debo_decir.txt
+          </div>
+
+          <div class="window-content">
+
+            <p>
+              No todo ha sido perfecto y lo admito
+            </p>
+
+            <p>
+              Hemos tenido capitulos complicados,
+              cosas que se volvieron dificiles
+              y errores por doquier.
+            </p>
+
+            <p>
+              Pero no, no quiero eliminarlo
+            </p>
+
+            <p>
+                Porque hemos aprendido cosas de todos esos momentos duros
+            </p>
+
+            <p>
+              Y de alguna manera, despues de todo eso
+                no nos hemos separado ni un segundo.
+            </p>
+
+            <div class="center heart">
+              ♥
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+
+      <!-- LETTER -->
+
+      <section id="letter">
+
+        <div class="section-heading">
+          ♡ MI CARTA PARA RUBI ♡
+        </div>
+
+        <div class="lined-paper">
+
+          <div class="letter-decoration">
+            ♡ ♥ ♡
+          </div>
+
+          <p>Mi amor,
+</p>
+
+          <p>
+            Los dias han sido dificiles, y sinceramente no se como expresar con unas simple frases todo lo que siento por ti.
+          </p>
+
+          <p>
+            Asi que trate de expresar mi amor de una manera alternativa...
+          </p>
+
+          <p>
+            Cada segundo, mensaje, momento que hemos pasado juntos no se compara con nada. Incluso estando mal y al borde de dejar todo de lado, jamás lo he querido ni nos hemos soltado.
+          </p>
+
+          <p>
+            Mi vida he decidido pasarla junto a ti, porque no me importa que me digan de mi, de ti, de nosotros. Yo soy el que esta viviendo toda esta experiencia junto a ti y no hay nada mejor que levantarme sabiendo que te tengo a ti en mi futuro todos los dias.
+          </p>
+
+          <p>
+    Tanto es mi sentimiento que siento que decirte te amo no vale de nada porque significa muy poco comparado con todo lo que yo siento por ti. Estoy loco por ti y no quisiera nada distinto. 
+          </p>
+
+          <p>
+            Si me lo permites, me quedare a tu lado y luchare hasta lograr todo lo que nos hemos prometido durante toda esta relacion.
+          </p>
+
+          <p>
+            Porque aunque pienses que merezco a alguien mas
+          </p>
+
+          <p class="signature">
+            No pensaria en elegir a nadie mas que a Rosario, Rubi, mi princesa. ♡
+          </p>
+
+        </div>
+
+      </section>
+
+
+
+      <!-- FUTURE -->
+
+      <section id="future">
+
+        <div class="section-heading">
+          ♡ FUTURO ♡
+        </div>
+
+        <div class="future-window">
+
+          <p>
+            Sinceramente, no se como se vea el futoro.
+          </p>
+
+          <p>
+            Pero se que me gustaria poner en el.
+          </p>
+
+          <div class="future-list">
+
+            ♡ Mas de mi lindura
+            <br>
+            ♥ Mas conversaciones
+            <br>
+            ♡ Mas citas
+            <br>
+            ♥ Mas chistes tontos
+            <br>
+            ♡ Mas memorias
+            <br>
+            ♥ Mas de nosotros
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+
+      <!-- =================================================
+           FINAL QUESTION
+      ================================================= -->
+
+      <section id="question" class="question-section">
+
+        <div class="question-window">
+
+          <div class="window-bar">
+            pregunta_importante.exe
+          </div>
+
+          <div class="question-content">
+
+            <div class="question-decoration">
+              ♡ ♥ ♡ ♥ ♡
+            </div>
+
+            <h2>
+              Asi que...
+            </h2>
+
+            <p class="question-big">
+              ¿Quieres volver a escribir
+              esta historia conmigo?
+            </p>
+
+            <p>
+              ¿Quieres volver a elegirme?
+            </p>
+
+            <div class="question-decoration">
+              ♥ ♥ ♥
+            </div>
+
+            <button id="yesButton" class="yes-button">
+              SÍ ♥
+            </button>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+
+      <!-- =================================================
+           LETTERS — HIDDEN UNTIL YES
+      ================================================= -->
+
+      <section id="letters" class="letters-section">
+
+        <div class="section-heading">
+          ♡ NUESTRO MAILBOX ♡
+        </div>
+
+        <div class="mailbox-intro">
+
+          <div class="mail-icon">
+            ✉
+          </div>
+
+          <h2>
+            aqui empieza la nueva historia ♡
+          </h2>
+
+          <p>
+            ahora podemos dejarnos cartas, mensajitos, lo que sea por aqui
+          </p>
+
+          <button id="newLetterButton" class="old-button">
+            ✉ escribe algo...
+          </button>
+
+        </div>
+
+        <div id="lettersList">
+        </div>
+
+      </section>
+
+
+      <footer>
+
+        ♡ our little world ♡
+        <br>
+
+        hecho el:
+        09/15/2002
+
+        <br><br>
+
+        ♥ hecho con amor ♥
+
+      </footer>
+
+    </main>
+
+  </div>
+
+</div>
+
+
+
+<!-- =====================================================
+     MUSIC PLAYER
+===================================================== -->
+
+<div id="musicPlayer">
+
+  <div class="player-title">
+    ♫ OUR MP3 PLAYER ♫
+  </div>
+
+  <div id="songName">
+    nothing playing
+  </div>
+
+  <div class="player-buttons">
+
+    <button id="prevSong">
+      ◀◀
+    </button>
+
+    <button id="playPause">
+      ▶
+    </button>
+
+    <button id="nextSong">
+      ▶▶
+    </button>
+
+  </div>
+
+  <div class="volume">
+    VOL:
+    <input
+      id="volume"
+      type="range"
+      min="0"
+      max="1"
+      step="0.01"
+      value="0.7"
+    >
+  </div>
+
+  <div id="musicError"></div>
+
+  <audio id="audio"></audio>
+
+</div>
+
+
+
+<!-- =====================================================
+     PHOTO MODAL
+===================================================== -->
+
+<div id="photoModal">
+
+  <div class="photo-viewer">
+
+    <button
+      id="closePhoto"
+      class="photo-close"
+    >
+      X
+    </button>
+
+    <img
+      id="bigPhoto"
+      src=""
+      alt="memory"
+    >
+
+    <div id="bigPhotoCaption">
+      ♡ memoria ♡
+    </div>
+
+  </div>
+
+</div>
+
+
+
+<!-- =====================================================
+     LETTER MODAL
+===================================================== -->
+
+<div id="letterModal">
+
+  <div class="letter-window">
+
+    <div class="window-bar">
+
+      escribe_algo.txt
+
+      <button id="closeLetter">
+        X
+      </button>
+
+    </div>
+
+    <div class="letter-form">
+
+      <label>
+        titulo:
+      </label>
+
+      <input
+        id="letterTitle"
+        type="text"
+      >
+
+      <label>
+        de:
+      </label>
+
+      <input
+        id="letterAuthor"
+        type="text"
+      >
+
+      <label>
+        tu mensaje:
+      </label>
+
+      <textarea
+        id="letterBody"
+      ></textarea>
+
+      <button
+        id="saveLetter"
+        class="old-button"
+      >
+        ENVIA ♥
+      </button>
+
+      <div id="letterStatus"></div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+<!-- =====================================================
+     YES SCREEN
+===================================================== -->
+
+<div id="yesScreen">
+
+  <div id="heartRain"></div>
+
+  <div class="yes-window">
+
+    <div class="window-bar">
+      ♥ NUEVO_MENSAJE.exe
+    </div>
+
+    <div class="yes-content">
+
+      <div class="big-hearts">
+        ♥ ♡ ♥ ♡ ♥
+      </div>
+
+      <h1>
+        DIJO QUE SI ♥
+      </h1>
+
+      <p>
+        cargando nuevo capitulo...
+      </p>
+
+      <div class="loading-bar">
+        <div></div>
+      </div>
+
+      <p class="new-chapter">
+        ♡ la historia continua ♡
+      </p>
+
+      <button
+        id="openLetters"
+        class="old-button"
+      >
+        ✉ ENTRA EN UN NUEVO CAPITULO
+      </button>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+<script src="script.js"></script>
+
 </body>
 </html>
