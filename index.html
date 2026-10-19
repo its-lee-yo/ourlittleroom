@@ -879,4 +879,647 @@
 <script src="script.js"></script>
 
 </body>
-</html>
+
+<!-- =========================================================
+     SEASON SYSTEM
+========================================================= -->
+
+<div id="seasonController">
+
+  <div class="season-controller-inner">
+
+    <div class="season-controller-title">
+      ♡ NUESTRO MUNDO DE AMOR ♡
+    </div>
+
+    <div class="season-controller-line">
+      <span>Temporadas</span>
+
+      <select id="seasonSelect">
+        <option value="spooky">Spooky Version</option>
+        <option value="nuevo-comienzo">Nuevo Comienzo</option>
+      </select>
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- =========================================================
+     SPOOKY VERSION
+========================================================= -->
+
+<div id="spookySeason">
+
+  <div class="spooky-page">
+
+    <!-- decoración superior -->
+    <div class="spooky-top-decor">
+
+      <span class="spooky-bat bat-one">RUBI</span>
+      <span class="spooky-moon">☾</span>
+      <span class="spooky-ghost ghost-one">LEO</span>
+
+    </div>
+
+
+    <!-- CABECERA -->
+    <header class="spooky-header">
+
+      <div class="spooky-window-bar">
+        <span>♡ SPOOKY VERSION ♡</span>
+
+        <span class="window-buttons">
+          _ □ ×
+        </span>
+      </div>
+
+      <div class="spooky-header-content">
+
+        <div class="spooky-small-label">
+          .
+        </div>
+
+        <h1>
+          ♡ NUESTRO RINCÓN DE AMOR ♡
+        </h1>
+
+        <div class="spooky-version-label">
+          SPOOKY VERSION
+        </div>
+
+        <p>
+          mas recuerdos con un toque de oscuridad
+        </p>
+
+      </div>
+
+    </header>
+
+
+    <!-- DECORACIÓN LATERAL -->
+    <div class="spooky-decoration-row">
+
+      <div class="spooky-pumpkin">
+        PUMPKIN
+      </div>
+
+      <div class="spooky-line"></div>
+
+      <div class="spooky-heart">
+        ♥
+      </div>
+
+      <div class="spooky-line"></div>
+
+      <div class="spooky-ghost-box">
+        GHOST
+      </div>
+
+    </div>
+
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main class="spooky-main">
+
+
+      <!-- COLUMNA IZQUIERDA -->
+      <aside class="spooky-sidebar">
+
+        <div class="spooky-window">
+
+          <div class="spooky-window-title">
+            ♡ NAVEGACIÓN
+          </div>
+
+          <div class="spooky-window-body">
+
+            <button data-spooky-target="spookyHome">
+              Inicio
+            </button>
+
+            <button data-spooky-target="spookyMemories">
+              Memorias
+            </button>
+
+            <button data-spooky-target="spookyBoard">
+              Tablón
+            </button>
+
+            <button data-spooky-target="spookyLetters">
+              Cartas
+            </button>
+
+            <button data-spooky-target="spookyMusic">
+              Musica
+            </button>
+
+          </div>
+
+        </div>
+
+
+        <div class="spooky-note">
+
+          <div class="note-title">
+            nota
+          </div>
+
+          <p>
+            esta versión queda guardada como una temporada
+            independiente de la temporada, asi que ven a visitarla cuando sientas nostalgia
+          </p>
+
+        </div>
+
+
+        <div class="spooky-mailbox-button">
+
+          <button id="spookyNotificationsButton">
+
+            MAILBOX
+
+            <span id="spookyNotificationCount">
+              0
+            </span>
+
+          </button>
+
+        </div>
+
+      </aside>
+
+
+      <!-- COLUMNA PRINCIPAL -->
+      <section class="spooky-content">
+
+
+        <!-- INICIO -->
+        <section
+          id="spookyHome"
+          class="spooky-section spooky-active-section"
+        >
+
+          <div class="spooky-intro-window">
+
+            <div class="spooky-window-title">
+              ♡ BIENVENIDA, PRINCESA ♡
+            </div>
+
+            <div class="spooky-intro-inner">
+
+              <div class="spooky-intro-stamp">
+                Rubi..
+              </div>
+
+              <div>
+
+                <h2>
+                  nuestro pequeño rincon
+                </h2>
+
+                <p>
+                  Esta es nuestra versión tenebrosa.
+                  Un espacio diferente, pero con la misma
+                  amor que hemos ido teniendno.
+                </p>
+
+                <p>
+                  Aquí podemos dejar recuerdos, cartas,
+                  deseos y pequeñas cosas para volver
+                  a encontrarlas después.
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <!-- TRES BLOQUES -->
+          <div class="spooky-card-grid">
+
+            <button
+              class="spooky-card"
+              data-spooky-target="spookyLetters"
+            >
+
+              <span class="card-symbol">MAIL</span>
+
+              <strong>
+                Cartas
+              </strong>
+
+              <small>
+                Nuestro buzon
+              </small>
+
+            </button>
+
+
+            <button
+              class="spooky-card"
+              data-spooky-target="spookyBoard"
+            >
+
+              <span class="card-symbol">BOARD</span>
+
+              <strong>
+                Tablero
+              </strong>
+
+              <small>
+                Quejas, deseos y tareas
+              </small>
+
+            </button>
+
+
+            <button
+              class="spooky-card"
+              data-spooky-target="spookyMemories"
+            >
+
+              <span class="card-symbol">PHOTO</span>
+
+              <strong>
+                Memorias
+              </strong>
+
+              <small>
+                Fotos, vídeos y audios
+              </small>
+
+            </button>
+
+          </div>
+
+
+          <!-- BLOQUE ANIVERSARIO -->
+          <div class="spooky-anniversary">
+
+            <div class="spooky-anniversary-side">
+              Muehehe
+            </div>
+
+            <div>
+
+              <h3>
+                una temporada para nosotros
+              </h3>
+
+              <p>
+                Algunas etapas terminan, pero no desaparecen.
+                Esta quedara guardada junto a las anteriores.
+              </p>
+
+            </div>
+
+          </div>
+
+        </section>
+
+
+        <!-- MEMORIAS -->
+        <section
+          id="spookyMemories"
+          class="spooky-section"
+        >
+
+          <div class="spooky-section-heading">
+            ♡ MEMORIAS SPOOKY ♡
+          </div>
+
+          <p class="spooky-section-description">
+            Aquí se guardarán las fotos, vídeos y audios
+            que pertenezcan a esta temporada.
+          </p>
+
+          <div class="spooky-upload-box">
+
+            <label>
+              título
+              <input
+                id="spookyMemoryTitle"
+                type="text"
+                placeholder="nombre del recuerdo"
+              >
+            </label>
+
+            <label>
+              descripcion
+              <textarea
+                id="spookyMemoryDescription"
+                placeholder="un pequeño texto..."
+              ></textarea>
+            </label>
+
+            <label>
+              archivo
+              <input
+                id="spookyMemoryFile"
+                type="file"
+                accept="image/*,video/*,audio/*"
+              >
+            </label>
+
+            <button id="spookyUploadMemory">
+              GUARDAR RECUERDO
+            </button>
+
+            <div id="spookyMemoryStatus"></div>
+
+          </div>
+
+          <div
+            id="spookyMemoryGallery"
+            class="spooky-memory-gallery"
+          ></div>
+
+        </section>
+
+
+        <!-- TABLÓN -->
+        <section
+          id="spookyBoard"
+          class="spooky-section"
+        >
+
+          <div class="spooky-section-heading">
+            ♡ NUESTRO TABLERO ♡
+          </div>
+
+          <div class="spooky-board-types">
+
+            <button
+              class="spooky-board-type active"
+              data-board-type="queja"
+            >
+              QUEJAS
+            </button>
+
+            <button
+              class="spooky-board-type"
+              data-board-type="deseo"
+            >
+              DESEOS
+            </button>
+
+            <button
+              class="spooky-board-type"
+              data-board-type="tarea"
+            >
+              TAREAS
+            </button>
+
+          </div>
+
+
+          <div class="spooky-board-form">
+
+            <input
+              id="spookyBoardAuthor"
+              type="text"
+              placeholder="tu nombre"
+            >
+
+            <textarea
+              id="spookyBoardContent"
+              placeholder="escribe aquí..."
+            ></textarea>
+
+            <button id="spookyAddBoard">
+              AÑADIR AL TABLERO
+            </button>
+
+          </div>
+
+
+          <div
+            id="spookyBoardList"
+            class="spooky-board-list"
+          ></div>
+
+        </section>
+
+
+        <!-- CARTAS -->
+        <section
+          id="spookyLetters"
+          class="spooky-section"
+        >
+
+          <div class="spooky-section-heading">
+            ♡ SPOOKY MAIL ♡
+          </div>
+
+          <p class="spooky-section-description">
+            Escribe cartas o pensamientos en esta nueva temporada.
+          </p>
+
+
+          <div class="spooky-letter-form">
+
+            <input
+              id="spookyLetterAuthor"
+              type="text"
+              placeholder="tu nombre"
+            >
+
+            <input
+              id="spookyLetterTitle"
+              type="text"
+              placeholder="título de la carta"
+            >
+
+            <textarea
+              id="spookyLetterBody"
+              placeholder="escribe tu carta..."
+            ></textarea>
+
+            <button id="spookySaveLetter">
+              DEJAR CARTA
+            </button>
+
+            <div id="spookyLetterStatus"></div>
+
+          </div>
+
+
+          <div
+            id="spookyLettersList"
+            class="spooky-letters-list"
+          ></div>
+
+        </section>
+
+
+        <!-- MÚSICA -->
+        <section
+          id="spookyMusic"
+          class="spooky-section"
+        >
+
+          <div class="spooky-section-heading">
+            ♫ SPOOKY RADIO ♫
+          </div>
+
+          <p class="spooky-section-description">
+            Nuestra PLAYLIST MORTAL
+          </p>
+
+          <div class="spooky-player-info">
+
+            <div class="spooky-player-screen">
+
+              <span>
+                NOW PLAYING
+              </span>
+
+              <strong id="spookySongTitle">
+                Cargando música...
+              </strong>
+
+            </div>
+
+            <div class="spooky-player-controls">
+
+              <button id="spookyPrev">
+                ◀
+              </button>
+
+              <button id="spookyPlay">
+                PLAY
+              </button>
+
+              <button id="spookyNext">
+                ▶
+              </button>
+
+            </div>
+
+            <div
+              id="spookySongList"
+              class="spooky-song-list"
+            ></div>
+
+          </div>
+
+        </section>
+
+
+      </section>
+
+    </main>
+
+
+    <!-- DECORACIÓN INFERIOR -->
+    <div class="spooky-bottom-decoration">
+
+      <span>Leo</span>
+
+      <div></div>
+
+      <span>♥</span>
+
+      <div></div>
+
+      <span>Rubi</span>
+
+    </div>
+
+
+    <footer class="spooky-footer">
+
+      ♡ NUESTRO MUNDO DE AMOR ♡
+
+      <span>
+        SPOOKY VERSION
+      </span>
+
+    </footer>
+
+  </div>
+
+
+  <!-- =======================================================
+       ÚNICO REPRODUCTOR SPOOKY
+  ======================================================== -->
+
+  <div id="spookyMiniPlayer">
+
+    <div class="spooky-mini-top">
+
+      <span>
+        SPOOKY MP3
+      </span>
+
+      <button id="spookyMiniClose">
+        ×
+      </button>
+
+    </div>
+
+    <div
+      id="spookyMiniSong"
+      class="spooky-mini-song"
+    >
+      Cargando...
+    </div>
+
+    <div class="spooky-mini-controls">
+
+      <button id="spookyMiniPrev">
+        ◀
+      </button>
+
+      <button id="spookyMiniPlay">
+        PLAY
+      </button>
+
+      <button id="spookyMiniNext">
+        ▶
+      </button>
+
+    </div>
+
+  </div>
+
+
+  <audio
+    id="spookyAudio"
+    preload="metadata"
+  ></audio>
+
+
+  <!-- NOTIFICACIONES -->
+  <div
+    id="spookyNotifications"
+    class="spooky-notifications"
+  >
+
+    <div class="spooky-notifications-window">
+
+      <div class="spooky-window-title">
+
+        Novedades
+
+        <button id="spookyNotificationsClose">
+          ×
+        </button>
+
+      </div>
+
+      <div
+        id="spookyNotificationsList"
+        class="spooky-notifications-list"
+      ></div>
+
+    </div>
+
+  </div>
+
+</div>
+  </home>
