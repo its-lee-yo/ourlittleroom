@@ -1994,3 +1994,1338 @@ footer {
   }
 
 }
+
+/* =========================================================
+   SPOOKY VERSION
+   NUEVO DISEÑO — NO MODIFICA EL DISEÑO ORIGINAL
+========================================================= */
+
+#seasonController {
+  position: relative;
+  z-index: 9999;
+
+  width: 100%;
+  padding: 8px 10px;
+
+  background: #18121f;
+
+  border-bottom: 3px solid #8d4caf;
+
+  box-shadow:
+    0 3px 0 #0c090f,
+    0 5px 0 #e27a28;
+}
+
+.season-controller-inner {
+  width: 900px;
+  max-width: calc(100% - 10px);
+
+  margin: auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 15px;
+}
+
+.season-controller-title {
+  color: #f5c7ff;
+
+  font-size: 13px;
+  font-weight: bold;
+
+  letter-spacing: 1px;
+}
+
+.season-controller-line {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  color: #b9d987;
+
+  font-size: 11px;
+}
+
+#seasonSelect {
+  padding: 5px 8px;
+
+  background: #241b2e;
+
+  color: #ffd7a1;
+
+  border: 2px solid #8d4caf;
+
+  font-family:
+    "Comic Sans MS",
+    "Trebuchet MS",
+    Arial,
+    sans-serif;
+
+  cursor: pointer;
+}
+
+
+/* =========================================================
+   VISIBILIDAD DE TEMPORADAS
+========================================================= */
+
+#spookySeason {
+  display: none;
+
+  min-height: 100vh;
+
+  background:
+    radial-gradient(
+      circle at 20% 10%,
+      rgba(141, 76, 175, .18),
+      transparent 24%
+    ),
+    radial-gradient(
+      circle at 85% 30%,
+      rgba(226, 122, 40, .14),
+      transparent 22%
+    ),
+    #17121c;
+
+  color: #e9dfef;
+
+  padding: 25px 10px 70px;
+}
+
+
+/* =========================================================
+   PÁGINA SPOOKY
+========================================================= */
+
+.spooky-page {
+  width: 920px;
+  max-width: 100%;
+
+  margin: auto;
+
+  position: relative;
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(255,255,255,.015) 50%,
+      transparent 50%
+    );
+
+  border: 4px double #8d4caf;
+
+  box-shadow:
+    6px 6px 0 #09070b,
+    10px 10px 0 #5b2d70;
+}
+
+
+/* =========================================================
+   DECORACIÓN SUPERIOR
+========================================================= */
+
+.spooky-top-decor {
+  height: 45px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 22px;
+
+  background: #0d0a10;
+
+  border-bottom: 2px solid #e27a28;
+
+  font-size: 10px;
+}
+
+.spooky-bat {
+  color: #9f6ac2;
+
+  letter-spacing: 2px;
+
+  transform: rotate(-7deg);
+}
+
+.spooky-moon {
+  color: #dce7a2;
+
+  font-size: 24px;
+}
+
+.spooky-ghost {
+  color: #f1e9f5;
+
+  border: 1px dashed #f1e9f5;
+
+  padding: 4px 7px;
+
+  letter-spacing: 1px;
+}
+
+
+/* =========================================================
+   CABECERA
+========================================================= */
+
+.spooky-header {
+  margin: 15px;
+
+  background: #21182a;
+
+  border: 3px solid #8d4caf;
+
+  box-shadow:
+    4px 4px 0 #0b080e;
+}
+
+.spooky-window-bar {
+  padding: 5px 9px;
+
+  display: flex;
+  justify-content: space-between;
+
+  background: #69318b;
+
+  color: #fff1ff;
+
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.window-buttons {
+  letter-spacing: 2px;
+}
+
+.spooky-header-content {
+  padding: 25px 15px 28px;
+
+  text-align: center;
+
+  border-top: 2px solid #e27a28;
+}
+
+.spooky-small-label {
+  color: #a9ca79;
+
+  text-transform: uppercase;
+
+  font-size: 10px;
+
+  letter-spacing: 2px;
+}
+
+.spooky-header h1 {
+  margin: 12px 0 5px;
+
+  color: #f3d7ff;
+
+  font-size: 28px;
+
+  letter-spacing: 1px;
+
+  text-shadow:
+    2px 2px 0 #100b15;
+}
+
+.spooky-version-label {
+  display: inline-block;
+
+  margin-top: 8px;
+
+  padding: 4px 10px;
+
+  background: #e27a28;
+
+  color: #170d20;
+
+  border: 2px solid #ffb25d;
+
+  font-weight: bold;
+
+  letter-spacing: 2px;
+}
+
+.spooky-header p {
+  margin: 13px 0 0;
+
+  color: #c8b9d0;
+
+  font-size: 12px;
+}
+
+
+/* =========================================================
+   DECORACIÓN CENTRAL
+========================================================= */
+
+.spooky-decoration-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  padding: 4px 20px 16px;
+}
+
+.spooky-line {
+  height: 1px;
+
+  flex: 1;
+
+  background: #643c75;
+}
+
+.spooky-pumpkin,
+.spooky-ghost-box {
+  padding: 5px 8px;
+
+  border: 2px solid;
+
+  font-size: 9px;
+
+  letter-spacing: 1px;
+}
+
+.spooky-pumpkin {
+  color: #ffad59;
+
+  border-color: #e27a28;
+
+  background: #2a170d;
+}
+
+.spooky-ghost-box {
+  color: #dce7e0;
+
+  border-color: #83978b;
+
+  background: #18201d;
+}
+
+.spooky-heart {
+  color: #e58aab;
+
+  font-size: 17px;
+}
+
+
+/* =========================================================
+   LAYOUT
+========================================================= */
+
+.spooky-main {
+  display: grid;
+
+  grid-template-columns: 185px minmax(0, 1fr);
+
+  gap: 15px;
+
+  padding: 0 15px 20px;
+}
+
+
+/* =========================================================
+   SIDEBAR
+========================================================= */
+
+.spooky-sidebar {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 12px;
+}
+
+.spooky-window {
+  background: #201727;
+
+  border: 2px solid #75478d;
+
+  box-shadow: 3px 3px 0 #09070c;
+}
+
+.spooky-window-title {
+  padding: 6px 8px;
+
+  background: #54296d;
+
+  color: #f5eaff;
+
+  font-size: 10px;
+
+  font-weight: bold;
+
+  letter-spacing: 1px;
+
+  border-bottom: 2px solid #9b61b5;
+}
+
+.spooky-window-body {
+  padding: 7px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 5px;
+}
+
+.spooky-window-body button {
+  padding: 7px 6px;
+
+  text-align: left;
+
+  background: #171018;
+
+  color: #d9d0de;
+
+  border: 1px solid #594262;
+
+  font-family: inherit;
+
+  cursor: pointer;
+}
+
+.spooky-window-body button:hover {
+  background: #34203f;
+
+  color: #ffb764;
+
+  border-color: #e27a28;
+}
+
+.spooky-note {
+  padding: 10px;
+
+  background: #182019;
+
+  border: 2px dashed #789653;
+
+  color: #cdd9c7;
+
+  font-size: 10px;
+
+  line-height: 1.5;
+}
+
+.note-title {
+  color: #a9d37d;
+
+  margin-bottom: 5px;
+
+  font-weight: bold;
+}
+
+.spooky-mailbox-button button {
+  width: 100%;
+
+  padding: 9px;
+
+  background: #2a170d;
+
+  color: #ffb765;
+
+  border: 2px solid #e27a28;
+
+  font-family: inherit;
+
+  cursor: pointer;
+}
+
+#spookyNotificationCount {
+  display: inline-block;
+
+  min-width: 17px;
+
+  margin-left: 4px;
+
+  padding: 1px 4px;
+
+  background: #8d4caf;
+
+  color: white;
+
+  border-radius: 2px;
+}
+
+
+/* =========================================================
+   CONTENT
+========================================================= */
+
+.spooky-content {
+  min-width: 0;
+}
+
+.spooky-section {
+  display: none;
+}
+
+.spooky-active-section {
+  display: block;
+}
+
+
+/* =========================================================
+   INTRO
+========================================================= */
+
+.spooky-intro-window {
+  background: #21182a;
+
+  border: 3px double #9c5ab7;
+
+  box-shadow: 4px 4px 0 #09070c;
+}
+
+.spooky-intro-inner {
+  display: grid;
+
+  grid-template-columns: 70px 1fr;
+
+  gap: 15px;
+
+  padding: 20px;
+}
+
+.spooky-intro-stamp {
+  width: 62px;
+  height: 62px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  background: #27311f;
+
+  color: #a8cf78;
+
+  border: 2px dashed #8bad60;
+
+  font-weight: bold;
+
+  transform: rotate(-5deg);
+}
+
+.spooky-intro-inner h2 {
+  margin: 0 0 8px;
+
+  color: #f0caff;
+
+  font-size: 20px;
+}
+
+.spooky-intro-inner p {
+  margin: 7px 0;
+
+  color: #c8bdcf;
+
+  line-height: 1.6;
+}
+
+
+/* =========================================================
+   CARDS
+========================================================= */
+
+.spooky-card-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, minmax(0, 1fr));
+
+  gap: 10px;
+
+  margin: 14px 0;
+}
+
+.spooky-card {
+  min-height: 125px;
+
+  padding: 15px;
+
+  background: #1a141f;
+
+  color: #eee5f0;
+
+  border: 2px solid #684077;
+
+  box-shadow: 3px 3px 0 #08060a;
+
+  font-family: inherit;
+
+  text-align: left;
+
+  cursor: pointer;
+}
+
+.spooky-card:nth-child(1) {
+  border-color: #e27a28;
+}
+
+.spooky-card:nth-child(2) {
+  border-color: #789953;
+}
+
+.spooky-card:nth-child(3) {
+  border-color: #9d5bb9;
+}
+
+.spooky-card:hover {
+  transform: translate(-1px, -1px);
+
+  background: #281b31;
+}
+
+.card-symbol {
+  display: block;
+
+  margin-bottom: 18px;
+
+  color: #ffad5c;
+
+  font-size: 9px;
+
+  letter-spacing: 2px;
+}
+
+.spooky-card strong {
+  display: block;
+
+  margin-bottom: 5px;
+
+  color: #f1d9ff;
+
+  font-size: 15px;
+}
+
+.spooky-card small {
+  color: #aaa0b0;
+
+  font-size: 10px;
+}
+
+
+/* =========================================================
+   ANNIVERSARY
+========================================================= */
+
+.spooky-anniversary {
+  display: grid;
+
+  grid-template-columns: 70px 1fr;
+
+  gap: 15px;
+
+  padding: 15px;
+
+  background: #172016;
+
+  border: 2px solid #66834b;
+}
+
+.spooky-anniversary-side {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  background: #2c2111;
+
+  color: #ffae58;
+
+  border: 2px solid #d87929;
+
+  font-weight: bold;
+}
+
+.spooky-anniversary h3 {
+  margin: 0 0 5px;
+
+  color: #c5df9b;
+}
+
+.spooky-anniversary p {
+  margin: 0;
+
+  color: #c1c8bc;
+
+  line-height: 1.5;
+}
+
+
+/* =========================================================
+   SECCIONES
+========================================================= */
+
+.spooky-section-heading {
+  padding: 10px;
+
+  background: #54296d;
+
+  color: #f6eaff;
+
+  border: 2px solid #9a5ab6;
+
+  font-weight: bold;
+
+  letter-spacing: 1px;
+
+  box-shadow: 3px 3px 0 #08060a;
+}
+
+.spooky-section-description {
+  padding: 10px;
+
+  color: #bdb3c2;
+
+  line-height: 1.5;
+}
+
+
+/* =========================================================
+   FORMULARIOS
+========================================================= */
+
+.spooky-upload-box,
+.spooky-board-form,
+.spooky-letter-form {
+  padding: 14px;
+
+  background: #1d1722;
+
+  border: 2px solid #62406e;
+
+  margin-bottom: 15px;
+}
+
+.spooky-upload-box label {
+  display: block;
+
+  margin-bottom: 10px;
+
+  color: #c5db9e;
+
+  font-size: 10px;
+}
+
+.spooky-upload-box input,
+.spooky-upload-box textarea,
+.spooky-board-form input,
+.spooky-board-form textarea,
+.spooky-letter-form input,
+.spooky-letter-form textarea {
+  display: block;
+
+  width: 100%;
+
+  margin-top: 5px;
+
+  padding: 8px;
+
+  background: #110d14;
+
+  color: #eee5ef;
+
+  border: 1px solid #654771;
+
+  font-family: inherit;
+}
+
+.spooky-upload-box textarea,
+.spooky-board-form textarea,
+.spooky-letter-form textarea {
+  min-height: 90px;
+
+  resize: vertical;
+}
+
+.spooky-upload-box button,
+.spooky-board-form button,
+.spooky-letter-form button {
+  padding: 8px 12px;
+
+  background: #e27a28;
+
+  color: #180e09;
+
+  border: 2px solid #ffb461;
+
+  font-family: inherit;
+
+  font-weight: bold;
+
+  cursor: pointer;
+}
+
+#spookyMemoryStatus,
+#spookyLetterStatus {
+  margin-top: 8px;
+
+  color: #a8cf78;
+}
+
+
+/* =========================================================
+   TABLÓN
+========================================================= */
+
+.spooky-board-types {
+  display: flex;
+
+  gap: 7px;
+
+  margin: 12px 0;
+}
+
+.spooky-board-type {
+  padding: 7px 10px;
+
+  background: #18121c;
+
+  color: #bbb1c1;
+
+  border: 1px solid #65466f;
+
+  font-family: inherit;
+
+  cursor: pointer;
+}
+
+.spooky-board-type.active {
+  background: #54296d;
+
+  color: #fff;
+
+  border-color: #a764c1;
+}
+
+.spooky-board-list {
+  display: grid;
+
+  gap: 8px;
+}
+
+.spooky-board-item {
+  padding: 12px;
+
+  background: #1c1720;
+
+  border-left: 4px solid #e27a28;
+
+  border-top: 1px solid #513a59;
+
+  border-right: 1px solid #513a59;
+
+  border-bottom: 1px solid #513a59;
+}
+
+.spooky-board-item.deseo {
+  border-left-color: #9d63bd;
+}
+
+.spooky-board-item.tarea {
+  border-left-color: #80a35c;
+}
+
+.spooky-board-item strong {
+  color: #f1d9ff;
+}
+
+.spooky-board-item p {
+  color: #c8bdca;
+
+  margin: 7px 0;
+}
+
+
+/* =========================================================
+   CARTAS
+========================================================= */
+
+.spooky-letters-list {
+  display: grid;
+
+  gap: 10px;
+}
+
+.spooky-letter {
+  padding: 14px;
+
+  background: #21182a;
+
+  border: 2px solid #75468c;
+
+  box-shadow: 3px 3px 0 #08060a;
+}
+
+.spooky-letter h3 {
+  margin: 0 0 4px;
+
+  color: #f0ccff;
+}
+
+.spooky-letter-author {
+  color: #9dbd77;
+
+  font-size: 10px;
+}
+
+.spooky-letter p {
+  color: #d0c6d3;
+
+  line-height: 1.6;
+
+  white-space: pre-wrap;
+}
+
+
+/* =========================================================
+   MEMORIAS
+========================================================= */
+
+.spooky-memory-gallery {
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr));
+
+  gap: 10px;
+}
+
+.spooky-memory {
+  padding: 8px;
+
+  background: #1a151e;
+
+  border: 2px solid #65466f;
+}
+
+.spooky-memory img,
+.spooky-memory video {
+  display: block;
+
+  width: 100%;
+
+  max-height: 250px;
+
+  object-fit: cover;
+
+  background: #09070b;
+}
+
+.spooky-memory audio {
+  width: 100%;
+}
+
+.spooky-memory h3 {
+  margin: 8px 0 4px;
+
+  color: #f0d2ff;
+}
+
+.spooky-memory p {
+  margin: 0;
+
+  color: #bbb1bf;
+
+  font-size: 11px;
+}
+
+
+/* =========================================================
+   MÚSICA
+========================================================= */
+
+.spooky-player-info {
+  padding: 15px;
+
+  background: #110d14;
+
+  border: 3px double #8b4da7;
+
+  box-shadow: 4px 4px 0 #070509;
+}
+
+.spooky-player-screen {
+  padding: 15px;
+
+  background: #1c2417;
+
+  border: 2px solid #728c54;
+
+  text-align: center;
+}
+
+.spooky-player-screen span {
+  display: block;
+
+  color: #9ab878;
+
+  font-size: 9px;
+
+  letter-spacing: 2px;
+}
+
+.spooky-player-screen strong {
+  display: block;
+
+  margin-top: 7px;
+
+  color: #e7d7ed;
+}
+
+.spooky-player-controls {
+  display: flex;
+
+  justify-content: center;
+
+  gap: 8px;
+
+  padding: 12px;
+}
+
+.spooky-player-controls button,
+.spooky-mini-controls button {
+  padding: 6px 10px;
+
+  background: #54296d;
+
+  color: white;
+
+  border: 1px solid #a265bb;
+
+  font-family: inherit;
+
+  cursor: pointer;
+}
+
+.spooky-song-list {
+  max-height: 210px;
+
+  overflow-y: auto;
+
+  border-top: 1px solid #48344e;
+}
+
+.spooky-song {
+  padding: 7px 8px;
+
+  border-bottom: 1px solid #392b40;
+
+  color: #bdb4c3;
+
+  cursor: pointer;
+}
+
+.spooky-song:hover,
+.spooky-song.current {
+  background: #291b31;
+
+  color: #ffb463;
+}
+
+
+/* =========================================================
+   ÚNICO MINI PLAYER FIJO
+========================================================= */
+
+#spookyMiniPlayer {
+  position: fixed;
+
+  right: 14px;
+  bottom: 14px;
+
+  z-index: 10000;
+
+  width: 220px;
+
+  background: #171019;
+
+  border: 3px double #8e4cab;
+
+  box-shadow:
+    4px 4px 0 #08060a,
+    0 0 0 2px #e27a28;
+
+  padding-bottom: 7px;
+}
+
+.spooky-mini-top {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  padding: 5px 7px;
+
+  background: #54296d;
+
+  color: #fff;
+
+  font-size: 9px;
+
+  font-weight: bold;
+}
+
+.spooky-mini-top button {
+  background: transparent;
+
+  border: 0;
+
+  color: white;
+
+  cursor: pointer;
+
+  font-size: 14px;
+}
+
+.spooky-mini-song {
+  padding: 10px;
+
+  color: #d8cfda;
+
+  font-size: 10px;
+
+  text-align: center;
+
+  min-height: 32px;
+}
+
+.spooky-mini-controls {
+  display: flex;
+
+  justify-content: center;
+
+  gap: 5px;
+}
+
+
+/* =========================================================
+   NOTIFICACIONES
+========================================================= */
+
+.spooky-notifications {
+  display: none;
+
+  position: fixed;
+
+  inset: 0;
+
+  z-index: 11000;
+
+  background: rgba(4, 3, 5, .75);
+
+  align-items: center;
+
+  justify-content: center;
+}
+
+.spooky-notifications.show {
+  display: flex;
+}
+
+.spooky-notifications-window {
+  width: 420px;
+
+  max-width: calc(100% - 25px);
+
+  background: #1b1420;
+
+  border: 3px double #9b5ab7;
+
+  box-shadow: 6px 6px 0 #070509;
+}
+
+.spooky-notifications-window
+.spooky-window-title {
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.spooky-notifications-window
+.spooky-window-title button {
+  background: transparent;
+
+  border: 0;
+
+  color: white;
+
+  cursor: pointer;
+}
+
+.spooky-notifications-list {
+  max-height: 400px;
+
+  overflow-y: auto;
+
+  padding: 10px;
+}
+
+.spooky-notification {
+  padding: 10px;
+
+  margin-bottom: 7px;
+
+  background: #261b2e;
+
+  border-left: 3px solid #e27a28;
+}
+
+.spooky-notification strong {
+  color: #f1d6ff;
+}
+
+.spooky-notification p {
+  margin: 5px 0 0;
+
+  color: #c3b8c7;
+}
+
+
+/* =========================================================
+   FOOTER
+========================================================= */
+
+.spooky-bottom-decoration {
+  display: flex;
+
+  align-items: center;
+
+  gap: 10px;
+
+  padding: 8px 18px;
+}
+
+.spooky-bottom-decoration div {
+  flex: 1;
+
+  height: 1px;
+
+  background: #5d3b69;
+}
+
+.spooky-bottom-decoration span {
+  color: #a9c67d;
+
+  font-size: 9px;
+
+  letter-spacing: 1px;
+}
+
+.spooky-footer {
+  padding: 15px;
+
+  background: #0d0a10;
+
+  border-top: 3px solid #e27a28;
+
+  text-align: center;
+
+  color: #c9bad0;
+
+  font-size: 10px;
+}
+
+.spooky-footer span {
+  display: block;
+
+  margin-top: 5px;
+
+  color: #8fbb64;
+}
+
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media (max-width: 700px) {
+
+  .season-controller-inner {
+    flex-direction: column;
+
+    align-items: stretch;
+  }
+
+  .season-controller-line {
+    justify-content: space-between;
+  }
+
+  #seasonSelect {
+    flex: 1;
+  }
+
+  #spookySeason {
+    padding: 12px 5px 85px;
+  }
+
+  .spooky-header h1 {
+    font-size: 21px;
+  }
+
+  .spooky-main {
+    grid-template-columns: 1fr;
+  }
+
+  .spooky-sidebar {
+    order: 2;
+  }
+
+  .spooky-content {
+    order: 1;
+  }
+
+  .spooky-card-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .spooky-memory-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  #spookyMiniPlayer {
+    right: 7px;
+    bottom: 7px;
+
+    width: 190px;
+  }
+
+  .spooky-decoration-row {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+}
+
+@media (max-width: 450px) {
+
+  .spooky-header {
+    margin: 8px;
+  }
+
+  .spooky-header-content {
+    padding: 20px 10px;
+  }
+
+  .spooky-intro-inner,
+  .spooky-anniversary {
+    grid-template-columns: 1fr;
+  }
+
+  .spooky-intro-stamp {
+    width: 55px;
+    height: 40px;
+  }
+
+  .spooky-board-types {
+    flex-wrap: wrap;
+  }
+
+}
