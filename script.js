@@ -1865,7 +1865,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const url =
           spookySupabase
             .storage
-            .from("fotos")
+            .from("halloween-memories")
             .getPublicUrl(path)
             .data
             .publicUrl;
@@ -1964,7 +1964,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const { error: uploadError } =
       await spookySupabase
         .storage
-        .from("fotos")
+        .from("halloween-memories")
         .upload(
           path,
           file,
