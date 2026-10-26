@@ -1359,15 +1359,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
   function spookyStorageURL(fileName) {
-
-    return (
-      SPOOKY_SUPABASE_URL +
-      "/storage/v1/object/public/music/" +
-      "halloween/" +
-      encodeURIComponent(fileName)
-    );
-
-  }
+  return (
+    SPOOKY_SUPABASE_URL +
+    "/storage/v1/object/public/halloween-music/" +
+    encodeURIComponent(fileName)
+  );
+}
 
 
   async function loadSpookyMusic() {
