@@ -1023,9 +1023,11 @@ loadSong(
    SPOOKY VERSION + NUEVO COMIENZO
 ========================================================= */
 
-(() => {
+document.addEventListener("DOMContentLoaded", () => {
 
-  "use strict";
+  (() => {
+
+    "use strict";
 
 
   /* =======================================================
@@ -1078,13 +1080,7 @@ loadSong(
      TEMPORADA
   ======================================================= */
 
-  const savedSeason =
-    localStorage.getItem("amor-current-season");
-
-  const initialSeason =
-    savedSeason === "nuevo-comienzo"
-      ? "nuevo-comienzo"
-      : "spooky";
+  const initialSeason = "spooky";
 
 
   function showSpooky() {
@@ -2592,8 +2588,9 @@ loadSong(
   ======================================================= */
 
   changeSeason(
-    initialSeason
-  );
+  initialSeason
+);
 
+  })();
 
-})();
+});
