@@ -1384,9 +1384,9 @@ document.addEventListener("DOMContentLoaded", () => {
     const { data, error } =
       await spookySupabase
         .storage
-        .from("music")
+        .from("halloween-music")
         .list(
-          "halloween",
+          "",
           {
             limit: 100,
             sortBy: {
